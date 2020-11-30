@@ -1,0 +1,70 @@
+colors:
+  # Default colors
+  primary:
+    background: "#191c25"
+    foreground: "#b5b4c9"
+
+  # Normal colors
+  normal:
+    black: "#2e313d"
+    red: "#cf8164"
+    green: "#76a065"
+    yellow: "#ab924c"
+    blue: "#8296b0"
+    magenta: "#a18daf"
+    cyan: "#659ea2"
+    white: "#b5b4c9"
+
+  # Bright colors
+  bright:
+    black: "#5b5f71"
+    red: "#fe9f7c"
+    green: "#f0edfe"
+    yellow: "#d2b45f"
+    blue: "#a9b9d8"
+    magenta: "#c6aed7"
+    cyan: "#7dc2c7"
+    white: "#f0edfe"
+
+background_opacity: 1.0
+
+font:
+  normal:
+    family: "Courier New"
+    style: Regular
+  bold:
+    family: "Courier New"
+    style: Bold
+  italic:
+    family: "Courier New"
+    style: Italic
+  bold_italic:
+    family: "Courier New"
+    style: Bold Italic
+
+  # Point size
+  size: 9.0
+
+window:
+  padding:
+    x: 2
+    y: 2
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 10
+
+# If 'true', bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+live_config_reload: true
+
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
