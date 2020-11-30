@@ -1,1 +1,1 @@
-hand-written config files for the uber leet.
+hand-written config files for the global elite.
