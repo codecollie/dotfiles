@@ -1,4 +1,4 @@
-"file: .vimrc
+" file: .vimrc
 
 set nobackup
 set noswapfile
