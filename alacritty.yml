@@ -28,8 +28,10 @@ colors:
     cyan: "#7dc2c7"
     white: "#f0edfe"
 
+# Opacity Level
 background_opacity: 0.95
 
+# Fonts and Style
 font:
   normal:
     family: "Courier New"
@@ -47,11 +49,13 @@ font:
   # Point size
   size: 9.0
 
+# Window Padding
 window:
   padding:
     x: 2
     y: 2
 
+# Scrolling and History
 scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
@@ -64,8 +68,10 @@ scrolling:
 # If 'true', bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
+# Live Relead
 live_config_reload: true
 
+# Key Bindings
 key_bindings:
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: C, mods: Control|Shift, action: Copy }
