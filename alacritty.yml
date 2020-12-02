@@ -1,7 +1,6 @@
 # file: alacritty.yml
 
 colors:
-  # Default colors
   primary:
     background: "#191c25"
     foreground: "#b5b4c9"
