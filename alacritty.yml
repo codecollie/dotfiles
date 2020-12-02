@@ -1,5 +1,6 @@
 # file: alacritty.yml
 
+# Color Pallette
 colors:
   # Default colors
   primary:
