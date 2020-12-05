@@ -1,5 +1,6 @@
 # file: alacritty.yml
 
+# color pallette
 colors:
   primary:
     background: "#191c25"
@@ -25,8 +26,10 @@ colors:
     cyan: "#7dc2c7"
     white: "#f0edfe"
 
+# opacity setting
 background_opacity: 0.95
 
+# font face
 font:
   normal:
     family: "Courier New"
@@ -41,22 +44,28 @@ font:
     family: "Courier New"
     style: Bold Italic
 
+# font size
   size: 9.0
 
+# window setting
 window:
   padding:
     x: 2
     y: 2
 
+# line scroll history
 scrolling:
   history: 10000
 
   multiplier: 10
 
+# bold text setting
 draw_bold_text_with_bright_colors: true
 
+# live reload
 live_config_reload: true
 
+# key bindings
 key_bindings:
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: C, mods: Control|Shift, action: Copy }
