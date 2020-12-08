@@ -1,6 +1,6 @@
 # file: .config/alacritty/alacritty.yml
 
-# color pallette
+# color pallette (substrata)
 colors:
   primary:
     background: "#191c25"
@@ -19,12 +19,12 @@ colors:
   bright:
     black: "#5b5f71"
     red: "#fe9f7c"
-    green: "#f0edfe"
+    green: "#92c47e"
     yellow: "#d2b45f"
-    blue: "#a9b9d8"
+    blue: "#a0b9d8"
     magenta: "#c6aed7"
     cyan: "#7dc2c7"
-    white: "#f0edfe"
+    white: "#f0ecfe"
 
 # opacity setting
 background_opacity: 0.95
