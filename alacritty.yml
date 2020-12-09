@@ -1,72 +1,64 @@
 # file: .config/alacritty/alacritty.yml
 
-# color pallette (substrata)
-colors:
-  primary:
-    background: "#191c25"
-    foreground: "#b5b4c9"
+# color pallette
+  colors:
+    primary:
+      background: "#191c25"
+      foreground: "#b5b4c9"
 
-  normal:
-    black: "#2e313d"
-    red: "#cf8164"
-    green: "#76a065"
-    yellow: "#ab924c"
-    blue: "#8296b0"
-    magenta: "#a18daf"
-    cyan: "#659ea2"
-    white: "#b5b4c9"
+    normal:
+      black: "#2e313d"
+      red: "#cf8164"
+      green: "#76a065"
+      yellow: "#ab924c"
+      blue: "#8296b0"
+      magenta: "#a18daf"
+      cyan: "#659ea2"
+      white: "#b5b4c9"
 
-  bright:
-    black: "#5b5f71"
-    red: "#fe9f7c"
-    green: "#92c47e"
-    yellow: "#d2b45f"
-    blue: "#a0b9d8"
-    magenta: "#c6aed7"
-    cyan: "#7dc2c7"
-    white: "#f0ecfe"
+    bright:
+      black: "#5b5f71"
+      red: "#f39f7c"
+      green: "#92c47e"
+      yellow: "#d2b45f"
+      blue: "#a0b9d8"
+      magenta: "#c6aed7"
+      cyan: "#7dc2c7"
+      white: "#f0ecfe"
 
-# opacity setting
-background_opacity: 0.95
+# opacity
+  background_opacity: 0.95
 
 # font face
-font:
-  normal:
-    family: "Courier New"
-    style: Regular
-  bold:
-    family: "Courier New"
-    style: Bold
-  italic:
-    family: "Courier New"
-    style: Italic
-  bold_italic:
-    family: "Courier New"
-    style: Bold Italic
+  font:
+    normal:
+      family: "Courier New"
+      style: Regular
+    bold:
+      family: "Courier New"
+      style: Bold
+    italic:
+      family: "Courier New"
+      style: Italic
+    bold_italic:
+      family: "Courier New"
+      style: Bold Italic
+    size: 9.0
 
-# font size
-  size: 9.0
+# window padding
+  window:
+    padding:
+      x: 2
+      y: 2
 
-# window setting
-window:
-  padding:
-    x: 2
-    y: 2
+# line scrolling
+  scrolling:
+    history: 10000
 
-# line scroll history
-scrolling:
-  history: 10000
+    multiplier: 10
 
-  multiplier: 10
-
-# bold text setting
-draw_bold_text_with_bright_colors: true
+# draw bold text
+  draw_bold_text_with_bright_colors: true
 
 # live reload
-live_config_reload: true
-
-# key bindings
-key_bindings:
-  - { key: V, mods: Control|Shift, action: Paste }
-  - { key: C, mods: Control|Shift, action: Copy }
-  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+  live_config_reload: true
