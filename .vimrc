@@ -1,3 +1,5 @@
+# file: .vimrc
+
 syntax on
 
 set noerrorbells
