@@ -1,3 +1,3 @@
-hand-written config files for the global elite, that were 80% ripped off.
+# file: README.md
 
-shut up, i'm still working.
+Hand-written files and scripts for the global elite.
